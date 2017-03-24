@@ -2,12 +2,12 @@
 
 This [repository](https://github.com/paldom/docker-android-sdk-tools) contains the Dockerfile of the [paldom/docker-android-sdk-tools](https://hub.docker.com/r/dpal/docker-android-sdk-tools/) image. Dockerfile is an extension of [bitriseio/docker-android-alpha:latest](https://hub.docker.com/r/bitriseio/docker-android-alpha/) with the following tools:
 
-* python 2.7 environment for  ```systrace```
-* ```avd``` system images and predefined emulator (named ```testdevice```)
+ * python 2.7 environment for  ```systrace```
+ * ```avd``` system images and predefined emulator (named ```testdevice```)
 
 ## Usage
 
-### Pull image
+### Pull image
 
 **From Docker Hub:**
 
@@ -35,7 +35,7 @@ This command will also bind your current working directory into ```/var/android`
 
 This is a short guide how to use android tools.
 
-### Emulator
+### Emulator
 
 Here's an example how to run emulator inside container:
 
@@ -49,7 +49,7 @@ If you build with this image, don't forget to set sdk location in local.properti
 sdk.dir=/opt/android-sdk-linux
 ```
 
-### Build
+### Build
 
 Example how to build APK, build test APK and intall them on emulator:
 
