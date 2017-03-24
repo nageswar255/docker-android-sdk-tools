@@ -1,0 +1,5 @@
+app:
+  build: .
+  command: bash
+  volumes:
+    - .:/var/android
