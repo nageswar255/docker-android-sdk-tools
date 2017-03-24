@@ -1,6 +1,6 @@
 # docker-android-sdk-tools
 
-This [repository](https://github.com/paldom/docker-android-sdk-tools) contains the Dockerfile of the [paldom/docker-android-sdk-tools](https://hub.docker.com/r/dpal/docker-android-sdk-tools/) image. Dockerfile is an extension of [bitriseio/docker-android-alpha:latest](https://hub.docker.com/r/bitriseio/docker-android-alpha/) with the following tools:
+This [repository](https://github.com/paldom/docker-android-sdk-tools) contains the Dockerfile of the [dpal/docker-android-sdk-tools](https://hub.docker.com/r/dpal/docker-android-sdk-tools/) image. Dockerfile is an extension of [bitriseio/docker-android-alpha:latest](https://hub.docker.com/r/bitriseio/docker-android-alpha/) with the following tools:
 
  * python 2.7 environment for  ```systrace```
  * ```avd``` system images and predefined emulator (named ```testdevice```)
